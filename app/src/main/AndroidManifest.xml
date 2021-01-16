@@ -10,12 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizTokoBuahABC">
-        <activity android:name=".Contact"></activity>
-        <activity android:name=".Product" />
+        <activity android:name=".Contact"
+            android:label="Hubungi Kami" />/>
+        <activity android:name=".Product"
+            android:label="Produk Kami" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
