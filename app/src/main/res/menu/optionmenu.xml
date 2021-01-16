@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeBase"
+        android:icon="@drawable/ic_home_24"
+        app:showAsAction="ifRoom"
+        android:title="Compose">
+    </item>
+
+    <item
+        android:id="@+id/produkKami"
+        android:title="Produk Kami"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/hubungiKami"
+        android:title="Hubungi Kami"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/keluar"
+        android:title="Keluar"
+        app:showAsAction="never"/>
+
+
+</menu>
